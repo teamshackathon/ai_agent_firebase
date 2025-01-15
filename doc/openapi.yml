@@ -1,0 +1,130 @@
+openapi: 3.1.0
+info:
+  title: ai-agent-backend
+  description: |-
+    # プロジェクトの詳細
+  version: 1.0.0
+servers:
+  - url: http://localhost:8000
+    description: Development server
+
+tags:
+  - name: "auth"
+    description: 認証に関するエンドポイント
+
+paths:
+  "/api/v1/auth/jwt/create/":
+    post:
+      tags: ["auth"]
+      summary: JWTトークンを取得する
+      description: Emailとパスワードを用いてJWTトークンを取得する
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  format: email
+                password:
+                  type: string
+                  format: password
+      responses:
+        "200":
+          description: JWTトークンを取得する
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  refresh:
+                    type: string
+                    format: password
+                  access:
+                    type: string
+                    format: password
+        "401":
+          description: 認証情報が不正
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+  "/api/v1/auth/jwt/refresh/":
+    post:
+      tags: ["auth"]
+      summary: JWTトークンをリフレッシュする
+      description: JWTトークンをリフレッシュする
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                refresh:
+                  type: string
+                  format: password
+      responses:
+        "200":
+          description: JWTトークンをリフレッシュする
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  access:
+                    type: string
+                    format: password
+        "401":
+          description: 認証情報が不正
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+                  code:
+                    type: string
+  "/api/v1/auth/jwt/verify/":
+    post:
+      tags: ["auth"]
+      summary: JWTトークンを検証する
+      description: JWTトークンを検証する
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                token:
+                  type: string
+                  format: password
+      responses:
+        "200":
+          description: JWTトークンを検証する
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {}
+        "401":
+          description: 認証情報が不正
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+                  code:
+                    type: string
