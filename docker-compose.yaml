@@ -1,0 +1,14 @@
+version: "3"
+services:
+  doc:
+    container_name: doc
+    image: swaggerapi/swagger-ui:v5.18.2
+    volumes:
+      - ./doc/openapi.yml:/usr/share/nginx/html/openapi.yml
+    environment:
+      API_URL: openapi.yml
+    ports:
+      - 9900:8080
+volumes:
+  db_data:
+  pgadmin-data:
