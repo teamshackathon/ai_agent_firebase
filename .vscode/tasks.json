@@ -36,6 +36,13 @@
             "command": "pull_request",
             "args": [],
             "problemMatcher": [],
+        },
+        {
+            "label": "firebaseのエミュレータの起動",
+            "type": "shell",
+            "command": "firebase emulators:start --project demo-",
+            "args": [],
+            "problemMatcher": [],
         }
     ],
     "inputs": [
