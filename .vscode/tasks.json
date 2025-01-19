@@ -40,7 +40,7 @@
         {
             "label": "firebaseのエミュレータの起動",
             "type": "shell",
-            "command": "firebase emulators:start --project demo-",
+            "command": "firebase emulators:start --import ${input:seeds} --project demo-manabiya-ai",
             "args": [],
             "problemMatcher": [],
         }
@@ -57,6 +57,12 @@
             "id": "branch",
             "description": "ブランチ名を入力してください。",
             "default": ""
+        },
+        {
+            "type": "promptString",
+            "id": "seeds",
+            "description": "seedのディレクトリを入力してください。",
+            "default": "./seeds/default"
         }
     ]
 }
