@@ -49,7 +49,7 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Koki\",\n    \"family_name\": \"Yamashita\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Koki\",\n    \"family_name\": \"Yamashita\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
         },
         {
             "localId": "37jpzS2XjtxTxtc7am37voaKOr5q",
@@ -424,7 +424,7 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Mao\",\n    \"family_name\": \"Kondo\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Mao\",\n    \"family_name\": \"Kondo\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
         },
         {
             "localId": "Q6mxKhXFmZ9idzM6iJ4wm67FjGrI",
@@ -549,7 +549,7 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Itsuki\",\n    \"family_name\": \"Kawai\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Itsuki\",\n    \"family_name\": \"Kawai\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
         },
         {
             "localId": "ZRzCTa1DDlEvgJkZksij6C7uTjxs",
@@ -574,7 +574,7 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Riku\",\n    \"family_name\": \"Uchida\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Riku\",\n    \"family_name\": \"Uchida\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
         },
         {
             "localId": "bO4C0DVVH9BcJ0OWbcQuxlBCogm9",
@@ -649,7 +649,7 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Akari\",\n    \"family_name\": \"Tamura\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Akari\",\n    \"family_name\": \"Tamura\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
         },
         {
             "localId": "fRRc3UqsuUqroePbek9BiW3aEXRM",
@@ -799,7 +799,7 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Kenta\",\n    \"family_name\": \"Sakurai\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Kenta\",\n    \"family_name\": \"Sakurai\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
         },
         {
             "localId": "qZMJZYQfJT9d6mCA6XwpSyQ0A4P0",
@@ -824,7 +824,7 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Sena\",\n    \"family_name\": \"Nishida\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Sena\",\n    \"family_name\": \"Nishida\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
         },
         {
             "localId": "rJHEelQf3BA096rPZQnTf1RuL1IN",
@@ -999,7 +999,7 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Hinata\",\n    \"family_name\": \"Arai\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Hinata\",\n    \"family_name\": \"Arai\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
         },
         {
             "localId": "xRfFaoQ2Wm0uYX9QTaVKedUu9a41",
@@ -1049,7 +1049,7 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Asuka\",\n    \"family_name\": \"Morita\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Asuka\",\n    \"family_name\": \"Morita\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
         }
     ]
 }
