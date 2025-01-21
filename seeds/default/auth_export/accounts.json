@@ -3,16 +3,14 @@
     "users": [
         {
             "localId": "2ASOEZ1hCTIbTJHdl4CE8okDuyC2",
+            "createdAt": "1737283980809",
             "lastLoginAt": "1737283980809",
             "displayName": "吉田優斗",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "yuto.yoshida@manabiya.ai.com",
-            "salt": "fakeSaltWUnqywW6500o3q542Ivi",
             "passwordHash": "fakeHash:salt=fakeSaltWUnqywW6500o3q542Ivi:password=Manab1yaa1yuto.yoshida",
-            "passwordUpdatedAt": 1737295626255,
-            "validSince": "1737295626",
-            "createdAt": "1737283980809",
+            "salt": "fakeSaltWUnqywW6500o3q542Ivi",
+            "passwordUpdatedAt": 1737463978690,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Yuto\",\n    \"family_name\": \"Yoshida\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -23,22 +21,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Yuto\",\n    \"family_name\": \"Yoshida\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:07:06.255Z"
+            "validSince": "1737463978",
+            "email": "yuto.yoshida@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "2I3nA4szS4VYZQRvqmgCFw2FXe9P",
+            "createdAt": "1737296041304",
             "lastLoginAt": "1737296041304",
             "displayName": "山下晃希",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "koki.yamashita@manabiya.ai.com",
-            "salt": "fakeSaltT5ABWaA8pFSZTrgFFrug",
             "passwordHash": "fakeHash:salt=fakeSaltT5ABWaA8pFSZTrgFFrug:password=Manab1yaa1koki.yamashita",
-            "passwordUpdatedAt": 1737296041304,
-            "validSince": "1737296041",
-            "mfaInfo": [],
-            "createdAt": "1737296041304",
+            "salt": "fakeSaltT5ABWaA8pFSZTrgFFrug",
+            "passwordUpdatedAt": 1737463978690,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Koki\",\n    \"family_name\": \"Yamashita\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -49,20 +46,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Koki\",\n    \"family_name\": \"Yamashita\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "koki.yamashita@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "37jpzS2XjtxTxtc7am37voaKOr5q",
+            "createdAt": "1737284615098",
             "lastLoginAt": "1737284615098",
             "displayName": "木村彩音",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "ayane.kimura@manabiya.ai.com",
-            "salt": "fakeSaltTdD4diQxNdR1F44m7R9K",
             "passwordHash": "fakeHash:salt=fakeSaltTdD4diQxNdR1F44m7R9K:password=Manab1yaa1ayane.kimura",
-            "passwordUpdatedAt": 1737295694549,
-            "validSince": "1737295694",
-            "createdAt": "1737284615098",
+            "salt": "fakeSaltTdD4diQxNdR1F44m7R9K",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Ayane\",\n    \"family_name\": \"Kimura\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -73,21 +71,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Ayane\",\n    \"family_name\": \"Kimura\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:08:14.549Z"
+            "validSince": "1737463978",
+            "email": "ayane.kimura@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "3tBWWeTXA50mseG9Ab3GeT64QlYH",
+            "createdAt": "1737283852323",
             "lastLoginAt": "1737283852323",
             "displayName": "山本海斗",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "kaito.yamamoto@manabiya.ai.com",
-            "salt": "fakeSaltENFkjqQpWFJNYM1C8e0Z",
             "passwordHash": "fakeHash:salt=fakeSaltENFkjqQpWFJNYM1C8e0Z:password=Manab1yaa1kaito.yamamoto",
-            "passwordUpdatedAt": 1737295601432,
-            "validSince": "1737295601",
-            "createdAt": "1737283852323",
+            "salt": "fakeSaltENFkjqQpWFJNYM1C8e0Z",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Kaito\",\n    \"family_name\": \"Yamamoto\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -98,21 +96,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Kaito\",\n    \"family_name\": \"Yamamoto\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:06:41.432Z"
+            "validSince": "1737463978",
+            "email": "kaito.yamamoto@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "5cHxnxdXewWlBvEFXiPWjuCnCPWV",
+            "createdAt": "1737283965867",
             "lastLoginAt": "1737283965867",
             "displayName": "加藤彩花",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "ayaka.kato@manabiya.ai.com",
-            "salt": "fakeSalti8HEcx5L7Wb92joiF8Hk",
             "passwordHash": "fakeHash:salt=fakeSalti8HEcx5L7Wb92joiF8Hk:password=Manab1yaa1ayaka.kato",
-            "passwordUpdatedAt": 1737295617566,
-            "validSince": "1737295617",
-            "createdAt": "1737283965867",
+            "salt": "fakeSalti8HEcx5L7Wb92joiF8Hk",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Ayaka\",\n    \"family_name\": \"Kato\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -123,21 +121,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Ayaka\",\n    \"family_name\": \"Kato\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:06:57.566Z"
+            "validSince": "1737463978",
+            "email": "ayaka.kato@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "5w6pFztdssyHBFFBQCIcdbpqXi7Y",
+            "createdAt": "1737283760419",
             "lastLoginAt": "1737283760419",
             "displayName": "渡辺翔太",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "shota.watanabe@manabiya.ai.com",
-            "salt": "fakeSaltfc50cN6mst6J3HmUMwJK",
             "passwordHash": "fakeHash:salt=fakeSaltfc50cN6mst6J3HmUMwJK:password=Manab1yaa1shota.watanabe",
-            "passwordUpdatedAt": 1737295513854,
-            "validSince": "1737295513",
-            "createdAt": "1737283760419",
+            "salt": "fakeSaltfc50cN6mst6J3HmUMwJK",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Shota\",\n    \"family_name\": \"Watanabe\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -148,21 +146,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Shota\",\n    \"family_name\": \"Watanabe\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:05:13.854Z"
+            "validSince": "1737463978",
+            "email": "shota.watanabe@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "6O69NWkFdxTa3LKuYMHXfi7cmiRP",
+            "createdAt": "1737284626374",
             "lastLoginAt": "1737284626374",
             "displayName": "林拓海",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "takumi.hayashi@manabiya.ai.com",
-            "salt": "fakeSaltgUTCgTavzjIQ4OdyNzm0",
             "passwordHash": "fakeHash:salt=fakeSaltgUTCgTavzjIQ4OdyNzm0:password=Manab1yaa1takumi.hayashi",
-            "passwordUpdatedAt": 1737295702522,
-            "validSince": "1737295702",
-            "createdAt": "1737284626374",
+            "salt": "fakeSaltgUTCgTavzjIQ4OdyNzm0",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Takumi\",\n    \"family_name\": \"Hayashi\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -173,22 +171,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Takumi\",\n    \"family_name\": \"Hayashi\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:08:22.522Z"
+            "validSince": "1737463978",
+            "email": "takumi.hayashi@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "9njLI2nQ5V8XhrYoJoC4f3WLNDIt",
+            "createdAt": "1737295951332",
             "lastLoginAt": "1737295951332",
             "displayName": "小島涼太",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "ryota.kojima@manabiya.ai.com",
-            "salt": "fakeSaltUsFhiOmxbA8vqwnk5J0R",
             "passwordHash": "fakeHash:salt=fakeSaltUsFhiOmxbA8vqwnk5J0R:password=Manab1yaa1ryota.kojima",
-            "passwordUpdatedAt": 1737295951332,
-            "validSince": "1737295951",
-            "mfaInfo": [],
-            "createdAt": "1737295951332",
+            "salt": "fakeSaltUsFhiOmxbA8vqwnk5J0R",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Ryota\",\n    \"family_name\": \"Kojima\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -199,21 +196,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Ryota\",\n    \"family_name\": \"Kojima\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "ryota.kojima@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "AmDCbIbUGLsvgwddIUeArISoLo4n",
+            "createdAt": "1737296112333",
             "lastLoginAt": "1737296112333",
             "displayName": "松田駿",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "shun.matsuda@manabiya.ai.com",
-            "salt": "fakeSaltit2m3IqVWz34ilKwcT8m",
             "passwordHash": "fakeHash:salt=fakeSaltit2m3IqVWz34ilKwcT8m:password=Manab1yaa1shun.matsuda",
-            "passwordUpdatedAt": 1737296112333,
-            "validSince": "1737296112",
-            "mfaInfo": [],
-            "createdAt": "1737296112333",
+            "salt": "fakeSaltit2m3IqVWz34ilKwcT8m",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Shun\",\n    \"family_name\": \"Matsuda\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -224,20 +221,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Shun\",\n    \"family_name\": \"Matsuda\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "shun.matsuda@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "B703DhHLk1UFshqo9I8jYlVZULuw",
+            "createdAt": "1737284663688",
             "lastLoginAt": "1737284663688",
             "displayName": "清水翼",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "tsubasa.shimizu@manabiya.ai.com",
-            "salt": "fakeSaltqCJnl85tIRUJz4s7AQl7",
             "passwordHash": "fakeHash:salt=fakeSaltqCJnl85tIRUJz4s7AQl7:password=Manab1yaa1tsubasa.shimizu",
-            "passwordUpdatedAt": 1737295720133,
-            "validSince": "1737295720",
-            "createdAt": "1737284663688",
+            "salt": "fakeSaltqCJnl85tIRUJz4s7AQl7",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Tsubasa\",\n    \"family_name\": \"Shimizu\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -248,22 +246,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Tsubasa\",\n    \"family_name\": \"Shimizu\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:08:40.133Z"
+            "validSince": "1737463978",
+            "email": "tsubasa.shimizu@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "BEiYT6W5GIy698Fufv6Vj8NyXEdu",
+            "createdAt": "1737296093104",
             "lastLoginAt": "1737296093104",
             "displayName": "土屋芽衣",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "mei.tsuchiya@manabiya.ai.com",
-            "salt": "fakeSalt036F2FHSb9QQqRRwiWrk",
             "passwordHash": "fakeHash:salt=fakeSalt036F2FHSb9QQqRRwiWrk:password=Manab1yaa1mei.tsuchiya",
-            "passwordUpdatedAt": 1737296093104,
-            "validSince": "1737296093",
-            "mfaInfo": [],
-            "createdAt": "1737296093104",
+            "salt": "fakeSalt036F2FHSb9QQqRRwiWrk",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Mei\",\n    \"family_name\": \"Tsuchiya\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -274,21 +271,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Mei\",\n    \"family_name\": \"Tsuchiya\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "mei.tsuchiya@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "HwAWW0NSUHEmGBD4WlguZv3d8v3T",
+            "createdAt": "1737296024734",
             "lastLoginAt": "1737296024734",
             "displayName": "篠原遥",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "haruka.shinohara@manabiya.ai.com",
-            "salt": "fakeSaltK9nLu2IaleTBcjV5rfXv",
             "passwordHash": "fakeHash:salt=fakeSaltK9nLu2IaleTBcjV5rfXv:password=Manab1yaa1haruka.shinohara",
-            "passwordUpdatedAt": 1737296024734,
-            "validSince": "1737296024",
-            "mfaInfo": [],
-            "createdAt": "1737296024734",
+            "salt": "fakeSaltK9nLu2IaleTBcjV5rfXv",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Haruka\",\n    \"family_name\": \"Shinohara\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -299,21 +296,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Haruka\",\n    \"family_name\": \"Shinohara\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "haruka.shinohara@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "IiHHusBSpEhpuQkpjYPbSAYhQRMU",
+            "createdAt": "1737295827289",
             "lastLoginAt": "1737295827289",
             "displayName": "岡田結衣",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "yui.okada@manabiya.ai.com",
-            "salt": "fakeSaltKNz2rxPpeaXje90I1OrY",
             "passwordHash": "fakeHash:salt=fakeSaltKNz2rxPpeaXje90I1OrY:password=Manab1yaa1yui.okada",
-            "passwordUpdatedAt": 1737295827289,
-            "validSince": "1737295827",
-            "mfaInfo": [],
-            "createdAt": "1737295827289",
+            "salt": "fakeSaltKNz2rxPpeaXje90I1OrY",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Yui\",\n    \"family_name\": \"Okada\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -324,21 +321,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Yui\",\n    \"family_name\": \"Okada\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "yui.okada@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "K0wAWnyU5XzyaF8rgEArrNS6hosa",
+            "createdAt": "1737295780169",
             "lastLoginAt": "1737295780169",
             "displayName": "藤本葵",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "aoi.fujimoto@manabiya.ai.com",
-            "salt": "fakeSaltDXEwjJYnUQxRYvyPe7WO",
             "passwordHash": "fakeHash:salt=fakeSaltDXEwjJYnUQxRYvyPe7WO:password=Manab1yaa1aoi.fujimoto",
-            "passwordUpdatedAt": 1737295780169,
-            "validSince": "1737295780",
-            "mfaInfo": [],
-            "createdAt": "1737295780169",
+            "salt": "fakeSaltDXEwjJYnUQxRYvyPe7WO",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"teacher\",\n    \"first_name\": \"Aoi\",\n    \"family_name\": \"Fujimoto\"\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -349,20 +346,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"teacher\",\n    \"first_name\": \"Aoi\",\n    \"family_name\": \"Fujimoto\"\n}"
+            "validSince": "1737463978",
+            "email": "aoi.fujimoto@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "K5DZ6dzDPUvZAkmWOXjxNlRwB5uR",
+            "createdAt": "1737284645786",
             "lastLoginAt": "1737284645786",
             "displayName": "斉藤美優",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "miyu.saito@manabiya.ai.com",
-            "salt": "fakeSaltRoKiQnhshDuiGsxpqKwl",
             "passwordHash": "fakeHash:salt=fakeSaltRoKiQnhshDuiGsxpqKwl:password=Manab1yaa1miyu.saito",
-            "passwordUpdatedAt": 1737295711909,
-            "validSince": "1737295711",
-            "createdAt": "1737284645786",
+            "salt": "fakeSaltRoKiQnhshDuiGsxpqKwl",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Miyu\",\n    \"family_name\": \"Saito\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -373,21 +371,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Miyu\",\n    \"family_name\": \"Saito\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:08:31.909Z"
+            "validSince": "1737463978",
+            "email": "miyu.saito@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "M48iwtBvxndXuplMpocYqnHPQ5BZ",
-            "lastLoginAt": "1737283493242",
+            "createdAt": "1737283493242",
+            "lastLoginAt": "1737466429410",
             "displayName": "システム管理者",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "admin@manabiya.ai.com",
-            "salt": "fakeSaltVprLaQpvWNOmlHxMwe5x",
             "passwordHash": "fakeHash:salt=fakeSaltVprLaQpvWNOmlHxMwe5x:password=Manab1yaa1.Admin",
-            "passwordUpdatedAt": 1737287824655,
-            "validSince": "1737287824",
-            "createdAt": "1737283493242",
+            "salt": "fakeSaltVprLaQpvWNOmlHxMwe5x",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"admin\",\n    \"first_name\": \"Admin\",\n    \"family_name\": \"System\"\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -398,22 +396,22 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"admin\",\n    \"first_name\": \"Admin\",\n    \"family_name\": \"System\"\n}",
-            "lastRefreshAt": "2025-01-19T11:57:04.656Z"
+            "validSince": "1737463978",
+            "email": "admin@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false,
+            "lastRefreshAt": "2025-01-21T13:33:49.410Z"
         },
         {
             "localId": "Ok9pxUTp5Y4RlEToDaeCgs8MkCTS",
+            "createdAt": "1737295869594",
             "lastLoginAt": "1737295869594",
             "displayName": "近藤真央",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "mao.kondo@manabiya.ai.com",
-            "salt": "fakeSaltJA1GL4WUnfLKlbG53vXa",
             "passwordHash": "fakeHash:salt=fakeSaltJA1GL4WUnfLKlbG53vXa:password=Manab1yaa1mao.kondo",
-            "passwordUpdatedAt": 1737295869594,
-            "validSince": "1737295869",
-            "mfaInfo": [],
-            "createdAt": "1737295869594",
+            "salt": "fakeSaltJA1GL4WUnfLKlbG53vXa",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Mao\",\n    \"family_name\": \"Kondo\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -424,20 +422,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Mao\",\n    \"family_name\": \"Kondo\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "mao.kondo@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "Q6mxKhXFmZ9idzM6iJ4wm67FjGrI",
+            "createdAt": "1737284570028",
             "lastLoginAt": "1737284570028",
             "displayName": "佐々木智也",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "tomoya.sasaki@manabiya.ai.com",
-            "salt": "fakeSaltATZCcYqjZtcwHu8wPFTK",
             "passwordHash": "fakeHash:salt=fakeSaltATZCcYqjZtcwHu8wPFTK:password=Manab1yaa1tomoya.sasaki",
-            "passwordUpdatedAt": 1737295645046,
-            "validSince": "1737295645",
-            "createdAt": "1737284570028",
+            "salt": "fakeSaltATZCcYqjZtcwHu8wPFTK",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Tomoya\",\n    \"family_name\": \"Sasaki\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -448,21 +447,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Tomoya\",\n    \"family_name\": \"Sasaki\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:07:25.046Z"
+            "validSince": "1737463978",
+            "email": "tomoya.sasaki@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "TqHfGVSFYl7aXkrE5lNW7DHDHwi5",
+            "createdAt": "1737295753249",
             "lastLoginAt": "1737295753249",
             "displayName": "武田陽翔",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "haruto.takeda@manabiya.ai.com",
-            "salt": "fakeSaltmzCP79ZTSBNc2RJbDWbS",
             "passwordHash": "fakeHash:salt=fakeSaltmzCP79ZTSBNc2RJbDWbS:password=Manab1yaa1haruto.takeda",
-            "passwordUpdatedAt": 1737295787960,
-            "validSince": "1737295787",
-            "createdAt": "1737295753249",
+            "salt": "fakeSaltmzCP79ZTSBNc2RJbDWbS",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"teacher\",\n    \"first_name\": \"Haruto\",\n    \"family_name\": \"Takeda\"\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -473,22 +472,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"teacher\",\n    \"first_name\": \"Haruto\",\n    \"family_name\": \"Takeda\"\n}",
-            "lastRefreshAt": "2025-01-19T14:09:47.960Z"
+            "validSince": "1737463978",
+            "email": "haruto.takeda@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "UFnlERdtuFec8PfiswDKdTZRDOjp",
+            "createdAt": "1737296127714",
             "lastLoginAt": "1737296127714",
             "displayName": "橋本梨央",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "rio.hashimoto@manabiya.ai.com",
-            "salt": "fakeSaltM8Gp4AXZArJSVU930MCy",
             "passwordHash": "fakeHash:salt=fakeSaltM8Gp4AXZArJSVU930MCy:password=Manab1yaa1rio.hashimoto",
-            "passwordUpdatedAt": 1737296127714,
-            "validSince": "1737296127",
-            "mfaInfo": [],
-            "createdAt": "1737296127714",
+            "salt": "fakeSaltM8Gp4AXZArJSVU930MCy",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Rio\",\n    \"family_name\": \"Hashimoto\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -499,20 +497,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Rio\",\n    \"family_name\": \"Hashimoto\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "rio.hashimoto@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "UI0OCia6bbFojQCoETS8io2Arbc3",
+            "createdAt": "1737284555695",
             "lastLoginAt": "1737284555695",
             "displayName": "山田真央",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "mao.yamada@manabiya.ai.com",
-            "salt": "fakeSaltBMpKAS0LMd0LnR387791",
             "passwordHash": "fakeHash:salt=fakeSaltBMpKAS0LMd0LnR387791:password=Manab1yaa1mao.yamada",
-            "passwordUpdatedAt": 1737295635395,
-            "validSince": "1737295635",
-            "createdAt": "1737284555695",
+            "salt": "fakeSaltBMpKAS0LMd0LnR387791",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Mao\",\n    \"family_name\": \"Yamada\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -523,22 +522,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Mao\",\n    \"family_name\": \"Yamada\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:07:15.395Z"
+            "validSince": "1737463978",
+            "email": "mao.yamada@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "Ww5oVUn0EJdOp3vLO2DtxVYYBk7Z",
+            "createdAt": "1737296076235",
             "lastLoginAt": "1737296076235",
             "displayName": "河合樹",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "itsuki.kawai@manabiya.ai.com",
-            "salt": "fakeSaltSjyvYIjL0MbPy1eusCHS",
             "passwordHash": "fakeHash:salt=fakeSaltSjyvYIjL0MbPy1eusCHS:password=Manab1yaa1itsuki.kawai",
-            "passwordUpdatedAt": 1737296076235,
-            "validSince": "1737296076",
-            "mfaInfo": [],
-            "createdAt": "1737296076235",
+            "salt": "fakeSaltSjyvYIjL0MbPy1eusCHS",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Itsuki\",\n    \"family_name\": \"Kawai\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -549,21 +547,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Itsuki\",\n    \"family_name\": \"Kawai\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "itsuki.kawai@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "ZRzCTa1DDlEvgJkZksij6C7uTjxs",
+            "createdAt": "1737295910966",
             "lastLoginAt": "1737295910966",
             "displayName": "内田陸",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "riku.uchida@manabiya.ai.com",
-            "salt": "fakeSalt9L4GVWZhPUy9G97vTfva",
             "passwordHash": "fakeHash:salt=fakeSalt9L4GVWZhPUy9G97vTfva:password=Manab1yaa1riku.uchida",
-            "passwordUpdatedAt": 1737295910966,
-            "validSince": "1737295910",
-            "mfaInfo": [],
-            "createdAt": "1737295910966",
+            "salt": "fakeSalt9L4GVWZhPUy9G97vTfva",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Riku\",\n    \"family_name\": \"Uchida\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -574,20 +572,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Riku\",\n    \"family_name\": \"Uchida\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "riku.uchida@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "bO4C0DVVH9BcJ0OWbcQuxlBCogm9",
+            "createdAt": "1737283690925",
             "lastLoginAt": "1737283690925",
             "displayName": "鈴木大輔",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "daisuke.suzuki@manabiya.ai.com",
-            "salt": "fakeSaltqgmo0VNOJBXIJQl79zpJ",
             "passwordHash": "fakeHash:salt=fakeSaltqgmo0VNOJBXIJQl79zpJ:password=Manab1yaa1daisuke.suzuki",
-            "passwordUpdatedAt": 1737295479150,
-            "validSince": "1737295479",
-            "createdAt": "1737283690925",
+            "salt": "fakeSaltqgmo0VNOJBXIJQl79zpJ",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Daisuke\",\n    \"family_name\": \"Suzuki\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -598,21 +597,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Daisuke\",\n    \"family_name\": \"Suzuki\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:04:39.150Z"
+            "validSince": "1737463978",
+            "email": "daisuke.suzuki@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "cEXjzZK9eijJ8xRhaKbqSLJ9th0V",
+            "createdAt": "1737283603342",
             "lastLoginAt": "1737283603342",
             "displayName": "佐藤美咲",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "misaki.sato@manabiya.ai.com",
-            "salt": "fakeSalt02uE8TjdDV87dsJtKUTY",
             "passwordHash": "fakeHash:salt=fakeSalt02uE8TjdDV87dsJtKUTY:password=Manab1yaa1misaki.sato",
-            "passwordUpdatedAt": 1737295457569,
-            "validSince": "1737295457",
-            "createdAt": "1737283603342",
+            "salt": "fakeSalt02uE8TjdDV87dsJtKUTY",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"teacher\",\n    \"first_name\": \"Misaki\",\n    \"family_name\": \"Sato\"\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -623,22 +622,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"teacher\",\n    \"first_name\": \"Misaki\",\n    \"family_name\": \"Sato\"\n}",
-            "lastRefreshAt": "2025-01-19T14:04:17.569Z"
+            "validSince": "1737463978",
+            "email": "misaki.sato@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "fGfS8IMhMIKgWDYP8HLjnkQ39rCk",
+            "createdAt": "1737296158129",
             "lastLoginAt": "1737296158129",
             "displayName": "田村朱莉",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "akari.tamura@manabiya.ai.com",
-            "salt": "fakeSalta7RjEMzmVgpSmNflHEMh",
             "passwordHash": "fakeHash:salt=fakeSalta7RjEMzmVgpSmNflHEMh:password=Manab1yaa1akari.tamura",
-            "passwordUpdatedAt": 1737296158129,
-            "validSince": "1737296158",
-            "mfaInfo": [],
-            "createdAt": "1737296158129",
+            "salt": "fakeSalta7RjEMzmVgpSmNflHEMh",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Akari\",\n    \"family_name\": \"Tamura\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -649,20 +647,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Akari\",\n    \"family_name\": \"Tamura\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "akari.tamura@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "fRRc3UqsuUqroePbek9BiW3aEXRM",
+            "createdAt": "1737283589383",
             "lastLoginAt": "1737283589383",
             "displayName": "田中健太",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "kenta.tanaka@manabiya.ai.com",
-            "salt": "fakeSaltG5LuCO82CpWJVWj7xrAZ",
             "passwordHash": "fakeHash:salt=fakeSaltG5LuCO82CpWJVWj7xrAZ:password=Manab1yaa1kenta.tanaka",
-            "passwordUpdatedAt": 1737295437789,
-            "validSince": "1737295437",
-            "createdAt": "1737283589383",
+            "salt": "fakeSaltG5LuCO82CpWJVWj7xrAZ",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"teacher\",\n    \"first_name\": \"Kenta\",\n    \"family_name\": \"Tanaka\"\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -673,21 +672,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"teacher\",\n    \"first_name\": \"Kenta\",\n    \"family_name\": \"Tanaka\"\n}",
-            "lastRefreshAt": "2025-01-19T14:03:57.789Z"
+            "validSince": "1737463978",
+            "email": "kenta.tanaka@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "gmD5lTfnLL0rDVqKZ42c0L5Ow6q0",
+            "createdAt": "1737284583446",
             "lastLoginAt": "1737284583446",
             "displayName": "松本優花",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "yuka.matsumoto@manabiya.ai.com",
-            "salt": "fakeSaltdQyrH3Cp8zFxfdY72f6l",
             "passwordHash": "fakeHash:salt=fakeSaltdQyrH3Cp8zFxfdY72f6l:password=Manab1yaa1yuka.matsumoto",
-            "passwordUpdatedAt": 1737295665209,
-            "validSince": "1737295665",
-            "createdAt": "1737284583446",
+            "salt": "fakeSaltdQyrH3Cp8zFxfdY72f6l",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Yuka\",\n    \"family_name\": \"Matsumoto\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -698,21 +697,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Yuka\",\n    \"family_name\": \"Matsumoto\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:07:45.209Z"
+            "validSince": "1737463978",
+            "email": "yuka.matsumoto@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "jaAqgtjPKhKz0a3QctPHCieOiuLD",
+            "createdAt": "1737284679018",
             "lastLoginAt": "1737284679018",
             "displayName": "山口玲奈",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "rena.yamaguchi@manabiya.ai.com",
-            "salt": "fakeSaltu3TFRck5IhGODCYqvS7u",
             "passwordHash": "fakeHash:salt=fakeSaltu3TFRck5IhGODCYqvS7u:password=Manab1yaa1rena.yamaguchi",
-            "passwordUpdatedAt": 1737295729126,
-            "validSince": "1737295729",
-            "createdAt": "1737284679018",
+            "salt": "fakeSaltu3TFRck5IhGODCYqvS7u",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Rena\",\n    \"family_name\": \"Yamaguchi\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -723,21 +722,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Rena\",\n    \"family_name\": \"Yamaguchi\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:08:49.126Z"
+            "validSince": "1737463978",
+            "email": "rena.yamaguchi@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "mLE6ChhqBR0HHC7AKBoP8JpKeqfp",
+            "createdAt": "1737283726993",
             "lastLoginAt": "1737283726993",
             "displayName": "高橋愛",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "ai.takahashi@manabiya.ai.com",
-            "salt": "fakeSalt1pae5D4gE4rU8pmAU3yf",
             "passwordHash": "fakeHash:salt=fakeSalt1pae5D4gE4rU8pmAU3yf:password=Manab1yaa1ai.takahashi",
-            "passwordUpdatedAt": 1737295490305,
-            "validSince": "1737295490",
-            "createdAt": "1737283726993",
+            "salt": "fakeSalt1pae5D4gE4rU8pmAU3yf",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Ai\",\n    \"family_name\": \"Takahashi\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -748,22 +747,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Ai\",\n    \"family_name\": \"Takahashi\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:04:50.305Z"
+            "validSince": "1737463978",
+            "email": "ai.takahashi@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "mSjPaWV5ILGoYo6hCzQPge9rHm5D",
+            "createdAt": "1737295809203",
             "lastLoginAt": "1737295809203",
             "displayName": "長谷川颯太",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "souta.hasegawa@manabiya.ai.com",
-            "salt": "fakeSaltOBunCRR6pwPrugcGsZWB",
             "passwordHash": "fakeHash:salt=fakeSaltOBunCRR6pwPrugcGsZWB:password=Manab1yaa1souta.hasegawa",
-            "passwordUpdatedAt": 1737295809203,
-            "validSince": "1737295809",
-            "mfaInfo": [],
-            "createdAt": "1737295809203",
+            "salt": "fakeSaltOBunCRR6pwPrugcGsZWB",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Souta\",\n    \"family_name\": \"Hasegawa\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -774,21 +772,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Souta\",\n    \"family_name\": \"Hasegawa\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "souta.hasegawa@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "mU61KM5JcdM6reMFeVb571P4LcHb",
+            "createdAt": "1737296177573",
             "lastLoginAt": "1737296177573",
             "displayName": "桜井健太",
             "photoUrl": "",
-            "emailVerified": false,
-            "email": "kenta.sakurai@manabiya.ai.com",
-            "salt": "fakeSaltMAdglYduDvNEvyUYVbMM",
             "passwordHash": "fakeHash:salt=fakeSaltMAdglYduDvNEvyUYVbMM:password=Manab1yaa1kenta.sakurai",
-            "passwordUpdatedAt": 1737296177573,
-            "validSince": "1737296177",
-            "mfaInfo": [],
-            "createdAt": "1737296177573",
+            "salt": "fakeSaltMAdglYduDvNEvyUYVbMM",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Kenta\",\n    \"family_name\": \"Sakurai\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -799,21 +797,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Kenta\",\n    \"family_name\": \"Sakurai\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "kenta.sakurai@manabiya.ai.com",
+            "emailVerified": false,
+            "disabled": false
         },
         {
             "localId": "qZMJZYQfJT9d6mCA6XwpSyQ0A4P0",
+            "createdAt": "1737296142312",
             "lastLoginAt": "1737296142312",
             "displayName": "西田星奈",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "sena.nishida@manabiya.ai.com",
-            "salt": "fakeSalt2HF4wsz6f7ZgK3MQzcw4",
             "passwordHash": "fakeHash:salt=fakeSalt2HF4wsz6f7ZgK3MQzcw4:password=Manab1yaa1sena.nishida",
-            "passwordUpdatedAt": 1737296142312,
-            "validSince": "1737296142",
-            "mfaInfo": [],
-            "createdAt": "1737296142312",
+            "salt": "fakeSalt2HF4wsz6f7ZgK3MQzcw4",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Sena\",\n    \"family_name\": \"Nishida\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -824,20 +822,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Sena\",\n    \"family_name\": \"Nishida\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "sena.nishida@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "rJHEelQf3BA096rPZQnTf1RuL1IN",
+            "createdAt": "1737283543442",
             "lastLoginAt": "1737283543442",
             "displayName": "学校管理者",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "operator@manabiya.ai.com",
-            "salt": "fakeSaltHDwhWYRikK5V0F2yN0Hn",
             "passwordHash": "fakeHash:salt=fakeSaltHDwhWYRikK5V0F2yN0Hn:password=Manab1yaa1.Operator",
-            "passwordUpdatedAt": 1737295395543,
-            "validSince": "1737295395",
-            "createdAt": "1737283543442",
+            "salt": "fakeSaltHDwhWYRikK5V0F2yN0Hn",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"operator\",\n    \"first_name\": \"Operator\",\n    \"family_name\": \"School\"\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -848,22 +847,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"operator\",\n    \"first_name\": \"Operator\",\n    \"family_name\": \"School\"\n}",
-            "lastRefreshAt": "2025-01-19T14:03:15.543Z"
+            "validSince": "1737463978",
+            "email": "operator@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "t7mKG4dPePIILQSHAyYRtdv83rf0",
+            "createdAt": "1737295847169",
             "lastLoginAt": "1737295847169",
             "displayName": "藤田蓮",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "ren.fujita@manabiya.ai.com",
-            "salt": "fakeSaltjODRpF89l9H3cGcriw2D",
             "passwordHash": "fakeHash:salt=fakeSaltjODRpF89l9H3cGcriw2D:password=Manab1yaa1ren.fujita",
-            "passwordUpdatedAt": 1737295847169,
-            "validSince": "1737295847",
-            "mfaInfo": [],
-            "createdAt": "1737295847169",
+            "salt": "fakeSaltjODRpF89l9H3cGcriw2D",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Ren\",\n    \"family_name\": \"Fujita\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -874,20 +872,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Ren\",\n    \"family_name\": \"Fujita\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "ren.fujita@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "txuq8D4KSDixpbbxiyYRD2mSgPNl",
+            "createdAt": "1737283783972",
             "lastLoginAt": "1737283783972",
             "displayName": "伊藤杏奈",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "anna.ito@manabiya.ai.com",
-            "salt": "fakeSaltEkZhnNh9b4mWMf0db8FM",
             "passwordHash": "fakeHash:salt=fakeSaltEkZhnNh9b4mWMf0db8FM:password=Manab1yaa1anna.ito",
-            "passwordUpdatedAt": 1737295528286,
-            "validSince": "1737295528",
-            "createdAt": "1737283783972",
+            "salt": "fakeSaltEkZhnNh9b4mWMf0db8FM",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Anna\",\n    \"family_name\": \"Ito\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -898,21 +897,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Anna\",\n    \"family_name\": \"Ito\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:05:28.286Z"
+            "validSince": "1737463978",
+            "email": "anna.ito@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "u5kqdpEQ11mEsjxbDfn5wWodVIU4",
+            "createdAt": "1737283835219",
             "lastLoginAt": "1737283835219",
             "displayName": "小林奈緒",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "nao.kobayashi@manabiya.ai.com",
-            "salt": "fakeSaltoPAPOSD5q3mNJ06VNuOF",
             "passwordHash": "fakeHash:salt=fakeSaltoPAPOSD5q3mNJ06VNuOF:password=Manab1yaa1nao.kobayashi",
-            "passwordUpdatedAt": 1737295590579,
-            "validSince": "1737295590",
-            "createdAt": "1737283835219",
+            "salt": "fakeSaltoPAPOSD5q3mNJ06VNuOF",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Nao\",\n    \"family_name\": \"Kobayashi\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -923,22 +922,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Nao\",\n    \"family_name\": \"Kobayashi\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:06:30.579Z"
+            "validSince": "1737463978",
+            "email": "nao.kobayashi@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "utnhpV7qDATv82CN6KXzAVwZtgSD",
+            "createdAt": "1737295929407",
             "lastLoginAt": "1737295929407",
             "displayName": "原南",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "minami.hara@manabiya.ai.com",
-            "salt": "fakeSalt8dTz2xTOh68AuPcYcPoX",
             "passwordHash": "fakeHash:salt=fakeSalt8dTz2xTOh68AuPcYcPoX:password=Manab1yaa1minami.hara",
-            "passwordUpdatedAt": 1737295929407,
-            "validSince": "1737295929",
-            "mfaInfo": [],
-            "createdAt": "1737295929407",
+            "salt": "fakeSalt8dTz2xTOh68AuPcYcPoX",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Minami\",\n    \"family_name\": \"Hara\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -949,20 +947,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Minami\",\n    \"family_name\": \"Hara\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "minami.hara@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "vGDFD4uvrYYMDeQyXnJlQcJ6mAbO",
+            "createdAt": "1737283815282",
             "lastLoginAt": "1737283815282",
             "displayName": "中村陸",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "riku.nakamura@manabiya.ai.com",
-            "salt": "fakeSaltvgw8n9WcTLPGrTXxgzqC",
             "passwordHash": "fakeHash:salt=fakeSaltvgw8n9WcTLPGrTXxgzqC:password=Manab1yaa1riku.nakamura",
-            "passwordUpdatedAt": 1737295581020,
-            "validSince": "1737295581",
-            "createdAt": "1737283815282",
+            "salt": "fakeSaltvgw8n9WcTLPGrTXxgzqC",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Riku\",\n    \"family_name\": \"Nakamura\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -973,22 +972,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Riku\",\n    \"family_name\": \"Nakamura\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:06:21.020Z"
+            "validSince": "1737463978",
+            "email": "riku.nakamura@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "vzY8QPwZ0XlRnpcg7QNdD5qVMxxZ",
+            "createdAt": "1737295892896",
             "lastLoginAt": "1737295892896",
             "displayName": "新井陽菜",
             "photoUrl": "",
-            "emailVerified": false,
-            "email": "hinata.arai@manabiya.ai.com",
-            "salt": "fakeSaltQRgH2jB1A8wQLGeUfyYJ",
             "passwordHash": "fakeHash:salt=fakeSaltQRgH2jB1A8wQLGeUfyYJ:password=Manab1yaa1hinata.arai",
-            "passwordUpdatedAt": 1737295892896,
-            "validSince": "1737295892",
-            "mfaInfo": [],
-            "createdAt": "1737295892896",
+            "salt": "fakeSaltQRgH2jB1A8wQLGeUfyYJ",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Hinata\",\n    \"family_name\": \"Arai\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -999,20 +997,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Hinata\",\n    \"family_name\": \"Arai\",\n    \"rooms\": [\n        {\n            \"room\": \"1-1\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "hinata.arai@manabiya.ai.com",
+            "emailVerified": false,
+            "disabled": false
         },
         {
             "localId": "xRfFaoQ2Wm0uYX9QTaVKedUu9a41",
+            "createdAt": "1737284598386",
             "lastLoginAt": "1737284598386",
             "displayName": "井上大樹",
             "photoUrl": "",
-            "emailVerified": true,
-            "email": "daiki.inoue@manabiya.ai.com",
-            "salt": "fakeSaltqm1GzzHS5VdUEhauNtvx",
             "passwordHash": "fakeHash:salt=fakeSaltqm1GzzHS5VdUEhauNtvx:password=Manab1yaa1daiki.inoue",
-            "passwordUpdatedAt": 1737295679113,
-            "validSince": "1737295679",
-            "createdAt": "1737284598386",
+            "salt": "fakeSaltqm1GzzHS5VdUEhauNtvx",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Daiki\",\n    \"family_name\": \"Inoue\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -1023,22 +1022,21 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Daiki\",\n    \"family_name\": \"Inoue\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
-            "lastRefreshAt": "2025-01-19T14:07:59.113Z"
+            "validSince": "1737463978",
+            "email": "daiki.inoue@manabiya.ai.com",
+            "emailVerified": true,
+            "disabled": false
         },
         {
             "localId": "zLfBX4qHN1MA4WVNYV3Vn9iQWZwQ",
+            "createdAt": "1737296056214",
             "lastLoginAt": "1737296056214",
             "displayName": "森田飛鳥",
             "photoUrl": "",
-            "emailVerified": false,
-            "email": "asuka.morita@manabiya.ai.com",
-            "salt": "fakeSalt0sGW7Xd85n5jU0gasCj0",
             "passwordHash": "fakeHash:salt=fakeSalt0sGW7Xd85n5jU0gasCj0:password=Manab1yaa1asuka.morita",
-            "passwordUpdatedAt": 1737296056214,
-            "validSince": "1737296056",
-            "mfaInfo": [],
-            "createdAt": "1737296056214",
+            "salt": "fakeSalt0sGW7Xd85n5jU0gasCj0",
+            "passwordUpdatedAt": 1737463978691,
+            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Asuka\",\n    \"family_name\": \"Morita\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}",
             "providerUserInfo": [
                 {
                     "providerId": "password",
@@ -1049,7 +1047,10 @@
                     "photoUrl": ""
                 }
             ],
-            "customAttributes": "{\n    \"role\": \"student\",\n    \"first_name\": \"Asuka\",\n    \"family_name\": \"Morita\",\n    \"rooms\": [\n        {\n            \"room\": \"1-2\",\n            \"year\": \"2023\"\n        },\n        {\n            \"room\": \"2-1\",\n            \"year\": \"2024\"\n        }\n    ]\n}"
+            "validSince": "1737463978",
+            "email": "asuka.morita@manabiya.ai.com",
+            "emailVerified": false,
+            "disabled": false
         }
     ]
 }

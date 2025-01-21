@@ -10,7 +10,7 @@ FIREBASE_EMULATOR_FIRESTORE_URL = "http://localhost:8080"
 auth._auth_service_url = f"{FIREBASE_EMULATOR_AUTH_URL}/identitytoolkit.googleapis.com/v1"
 
 # 2024 1-1
-firestore_data = {
+firestore_data_2024_1_1 = {
     "collections": {
         "arrayValue": {
             "values": [
@@ -29,7 +29,7 @@ firestore_data = {
 }
 
 # 2024 1-2
-firestore_data = {
+firestore_data_2024_1_2 = {
     "collections": {
         "arrayValue": {
             "values": [
@@ -48,7 +48,7 @@ firestore_data = {
 }
 
 # 2023 1-1
-firestore_data = {
+firestore_data_2023_1_1 = {
     "collections": {
         "arrayValue": {
             "values": [
@@ -67,7 +67,7 @@ firestore_data = {
 }
 
 # 2023 1-2
-firestore_data = {
+firestore_data_2023_1_2 = {
     "collections": {
         "arrayValue": {
             "values": [
@@ -86,7 +86,7 @@ firestore_data = {
 }
 
 # 2024 2-1
-firestore_data = {
+firestore_data_2024_2_1 = {
     "collections": {
         "arrayValue": {
             "values": [
@@ -105,7 +105,7 @@ firestore_data = {
 }
 
 # 2024 2-2
-firestore_data = {
+firestore_data_2024_2_2 = {
     "collections": {
         "arrayValue": {
             "values": [
@@ -153,12 +153,12 @@ def convert_to_firestore_format(data):
             firestore_data[key] = {"stringValue": str(value)}
     return firestore_data
 
-def write_to_firestore(id_token, url):
+def write_to_firestore(id_token, url, data):
     try:
         # fields = convert_to_firestore_format(data)
 
         body = {
-            "fields": firestore_data
+            "fields": data
         }
 
         headers = {
@@ -206,5 +206,18 @@ password = "Manab1yaa1.Admin"
 
 user = sign_in(email, password)
 id_token = user["idToken"]
-# if id_token:
-#     write_to_firestore(id_token, "2024/2-2")
+if id_token:
+    path = "2023/1-2"
+    for data in firestore_data_2023_1_2["collections"]["arrayValue"]["values"]:
+        name = data["stringValue"]
+        write_to_firestore(id_token, f"{path}/{name}/国語", {})
+        write_to_firestore(id_token, f"{path}/{name}/数学", {})
+        write_to_firestore(id_token, f"{path}/{name}/英語", {})
+        write_to_firestore(id_token, f"{path}/{name}/理科", {})
+        write_to_firestore(id_token, f"{path}/{name}/社会", {})
+    
+    write_to_firestore(id_token, f"{path}/共通/国語", {})
+    write_to_firestore(id_token, f"{path}/共通/数学", {})
+    write_to_firestore(id_token, f"{path}/共通/英語", {})
+    write_to_firestore(id_token, f"{path}/共通/理科", {})
+    write_to_firestore(id_token, f"{path}/共通/社会", {})
