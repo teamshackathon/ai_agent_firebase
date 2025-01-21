@@ -204,20 +204,25 @@ def get_document_from_firestore(id_token, url):
 email = "admin@manabiya.ai.com"
 password = "Manab1yaa1.Admin"
 
+teachers = ["kenta.tanaka", "misaki.sato", "haruto.takeda", "aoi.fujimoto"]
+
 user = sign_in(email, password)
 id_token = user["idToken"]
 if id_token:
-    path = "2023/1-2"
-    for data in firestore_data_2023_1_2["collections"]["arrayValue"]["values"]:
-        name = data["stringValue"]
-        write_to_firestore(id_token, f"{path}/{name}/国語", {})
-        write_to_firestore(id_token, f"{path}/{name}/数学", {})
-        write_to_firestore(id_token, f"{path}/{name}/英語", {})
-        write_to_firestore(id_token, f"{path}/{name}/理科", {})
-        write_to_firestore(id_token, f"{path}/{name}/社会", {})
+    # path = "2023/1-2"
+    # for data in firestore_data_2023_1_2["collections"]["arrayValue"]["values"]:
+    #     name = data["stringValue"]
+    #     write_to_firestore(id_token, f"{path}/{name}/国語", {})
+    #     write_to_firestore(id_token, f"{path}/{name}/数学", {})
+    #     write_to_firestore(id_token, f"{path}/{name}/英語", {})
+    #     write_to_firestore(id_token, f"{path}/{name}/理科", {})
+    #     write_to_firestore(id_token, f"{path}/{name}/社会", {})
+
+    for teacher in teachers:
+        write_to_firestore(id_token, f"teachers/{teacher}", {})
     
-    write_to_firestore(id_token, f"{path}/共通/国語", {})
-    write_to_firestore(id_token, f"{path}/共通/数学", {})
-    write_to_firestore(id_token, f"{path}/共通/英語", {})
-    write_to_firestore(id_token, f"{path}/共通/理科", {})
-    write_to_firestore(id_token, f"{path}/共通/社会", {})
+    # write_to_firestore(id_token, f"{path}/共通/国語", {})
+    # write_to_firestore(id_token, f"{path}/共通/数学", {})
+    # write_to_firestore(id_token, f"{path}/共通/英語", {})
+    # write_to_firestore(id_token, f"{path}/共通/理科", {})
+    # write_to_firestore(id_token, f"{path}/共通/社会", {})
