@@ -43,6 +43,13 @@
             "command": "firebase emulators:start --import ${input:seeds} --project demo-manabiya-ai",
             "args": [],
             "problemMatcher": [],
+        },
+        {
+            "label": "firebaseのエミュレータのデータをエクスポート",
+            "type": "shell",
+            "command": "export_data",
+            "args": [],
+            "problemMatcher": [],
         }
     ],
     "inputs": [
