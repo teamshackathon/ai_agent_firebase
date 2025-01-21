@@ -10,7 +10,7 @@ FIREBASE_EMULATOR_FIRESTORE_URL = "http://localhost:8080"
 auth._auth_service_url = f"{FIREBASE_EMULATOR_AUTH_URL}/identitytoolkit.googleapis.com/v1"
 
 # 2024 1-1
-firestore_data = {
+firestore_data_2024_1_1 = {
     "collections": {
         "arrayValue": {
             "values": [
@@ -29,7 +29,7 @@ firestore_data = {
 }
 
 # 2024 1-2
-firestore_data = {
+firestore_data_2024_1_2 = {
     "collections": {
         "arrayValue": {
             "values": [
@@ -48,7 +48,7 @@ firestore_data = {
 }
 
 # 2023 1-1
-firestore_data = {
+firestore_data_2023_1_1 = {
     "collections": {
         "arrayValue": {
             "values": [
@@ -67,7 +67,7 @@ firestore_data = {
 }
 
 # 2023 1-2
-firestore_data = {
+firestore_data_2023_1_2 = {
     "collections": {
         "arrayValue": {
             "values": [
@@ -86,7 +86,7 @@ firestore_data = {
 }
 
 # 2024 2-1
-firestore_data = {
+firestore_data_2024_2_1 = {
     "collections": {
         "arrayValue": {
             "values": [
@@ -105,7 +105,7 @@ firestore_data = {
 }
 
 # 2024 2-2
-firestore_data = {
+firestore_data_2024_2_2 = {
     "collections": {
         "arrayValue": {
             "values": [
@@ -153,12 +153,12 @@ def convert_to_firestore_format(data):
             firestore_data[key] = {"stringValue": str(value)}
     return firestore_data
 
-def write_to_firestore(id_token, url):
+def write_to_firestore(id_token, url, data):
     try:
         # fields = convert_to_firestore_format(data)
 
         body = {
-            "fields": firestore_data
+            "fields": data
         }
 
         headers = {
@@ -201,10 +201,149 @@ def get_document_from_firestore(id_token, url):
         else:
             print("Firestore ドキュメント取得失敗: リクエスト自体に失敗しました:", e)
 
+def delete_document_from_firestore(id_token, url):
+    try:
+        # Authorization ヘッダーの設定
+        headers = {
+            "Authorization": f"Bearer {id_token}",
+        }
+
+        # Firestore API エンドポイント
+        url = f"{FIREBASE_EMULATOR_FIRESTORE_URL}/v1/projects/demo-manabiya-ai/databases/(default)/documents/{url}"
+
+        # リクエスト送信
+        response = requests.delete(url, headers=headers)
+        response.raise_for_status()
+        
+        print("Firestore ドキュメント削除成功:", response.json())
+    except requests.exceptions.RequestException as e:
+        print("Firestore ドキュメント削除失敗:", e.response.text)
+
 email = "admin@manabiya.ai.com"
 password = "Manab1yaa1.Admin"
 
+teachers = ["kenta.tanaka", "misaki.sato", "haruto.takeda", "aoi.fujimoto"]
+
+common_subject_data = {
+    "arrayValue": {
+        "values": [
+            {
+                "mapValue": {
+                    "fields": {
+                        "year": {
+                            "stringValue": "2023"
+                        },
+                        "room": {
+                            "stringValue": "1-1"
+                        }
+                    }
+                }
+            },
+            {
+                "mapValue": {
+                    "fields": {
+                        "year": {
+                            "stringValue": "2023"
+                        },
+                        "room": {
+                            "stringValue": "1-2"
+                        }
+                    }
+                }
+            },
+            {
+                "mapValue": {
+                    "fields": {
+                        "year": {
+                            "stringValue": "2024"
+                        },
+                        "room": {
+                            "stringValue": "1-1"
+                        }
+                    }
+                }
+            },
+            {
+                "mapValue": {
+                    "fields": {
+                        "year": {
+                            "stringValue": "2024"
+                        },
+                        "room": {
+                            "stringValue": "1-2"
+                        }
+                    }
+                }
+            },
+            {
+                "mapValue": {
+                    "fields": {
+                        "year": {
+                            "stringValue": "2024"
+                        },
+                        "room": {
+                            "stringValue": "2-1"
+                        }
+                    }
+                }
+            },
+            {
+                "mapValue": {
+                    "fields": {
+                        "year": {
+                            "stringValue": "2024"
+                        },
+                        "room": {
+                            "stringValue": "2-2"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
+
 user = sign_in(email, password)
 id_token = user["idToken"]
-# if id_token:
-#     write_to_firestore(id_token, "2024/2-2")
+if id_token:
+    path = "2024/2-2"
+    for data in firestore_data_2024_2_2["collections"]["arrayValue"]["values"]:
+        name = data["stringValue"]
+        delete_document_from_firestore(id_token, f"{path}/{name}/国語")
+        write_to_firestore(id_token, f"{path}/{name}/japanese", {})
+        delete_document_from_firestore(id_token, f"{path}/{name}/数学")
+        write_to_firestore(id_token, f"{path}/{name}/math", {})
+        delete_document_from_firestore(id_token, f"{path}/{name}/英語")
+        write_to_firestore(id_token, f"{path}/{name}/english", {})
+        delete_document_from_firestore(id_token, f"{path}/{name}/理科")
+        write_to_firestore(id_token, f"{path}/{name}/science", {})
+        delete_document_from_firestore(id_token, f"{path}/{name}/社会")
+        write_to_firestore(id_token, f"{path}/{name}/social", {})
+
+    delete_document_from_firestore(id_token, f"{path}/共通/国語")
+    write_to_firestore(id_token, f"{path}/common/japanese", {})
+    delete_document_from_firestore(id_token, f"{path}/共通/数学")
+    write_to_firestore(id_token, f"{path}/common/math", {})
+    delete_document_from_firestore(id_token, f"{path}/共通/英語")
+    write_to_firestore(id_token, f"{path}/common/english", {})
+    delete_document_from_firestore(id_token, f"{path}/共通/理科")
+    write_to_firestore(id_token, f"{path}/common/science", {})
+    delete_document_from_firestore(id_token, f"{path}/共通/社会")
+    write_to_firestore(id_token, f"{path}/common/social", {})
+
+    # for teacher in teachers:
+    #     delete_document_from_firestore(id_token, f"teachers/{teacher}")
+        
+    # write_to_firestore(id_token, f"teachers/{teachers[0]}", {
+    #     "japanese": common_subject_data
+    # })
+    # write_to_firestore(id_token, f"teachers/{teachers[1]}", {
+    #     "math": common_subject_data,
+    #     "science": common_subject_data
+    # })
+    # write_to_firestore(id_token, f"teachers/{teachers[2]}", {
+    #     "social": common_subject_data
+    # })
+    # write_to_firestore(id_token, f"teachers/{teachers[3]}", {
+    #     "english": common_subject_data
+    # })
