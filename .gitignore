@@ -1,1 +1,4 @@
 **.log
+
+seeds/*
+!seeds/default
