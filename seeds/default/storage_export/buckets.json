@@ -2,6 +2,9 @@
   "buckets": [
     {
       "id": "demo-manabiya-ai.appspot.com"
+    },
+    {
+      "id": "classistant-6f28f.firebasestorage.app"
     }
   ]
 }
