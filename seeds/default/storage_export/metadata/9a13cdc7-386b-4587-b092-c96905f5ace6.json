@@ -1,0 +1,19 @@
+{
+  "name": "englishMock.pdf",
+  "bucket": "classistant-6f28f.firebasestorage.app",
+  "metageneration": 1,
+  "generation": 1737715920786,
+  "contentType": "application/pdf",
+  "storageClass": "STANDARD",
+  "contentDisposition": "inline",
+  "downloadTokens": [
+    "e2e57857-0754-42a0-b4f4-316e84462b9f"
+  ],
+  "etag": "j+xks6XRpj30Jl7ieiA0cwYbBKI",
+  "customMetadata": {},
+  "timeCreated": "2025-01-24T10:52:00.786Z",
+  "updated": "2025-01-24T10:52:00.786Z",
+  "size": 4665111,
+  "md5Hash": "j2UcUkbQznP2iZEp+pT6Uw==",
+  "crc32c": "1960385022"
+}
