@@ -1,6 +1,6 @@
 {
   "name": "test/",
-  "bucket": "demo-manabiya-ai.appspot.com",
+  "bucket": "demo-manabiya-ai.firebaseapp.com",
   "metageneration": 1,
   "generation": 1737724039107,
   "contentType": "application/octet-stream",
