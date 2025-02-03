@@ -34,5 +34,8 @@ npm install -g firebase-tools
 
 エミュレータの起動
 ```sh
-firebase emulators:start --project demo-
+cd seeds/default
+mkdir database_export
+cd ..
+firebase emulators:start --import ./seeds/default --project demo-manabiya-ai
 ```
