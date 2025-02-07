@@ -1,0 +1,19 @@
+{
+  "name": "englishText.pdf",
+  "bucket": "demo-manabiya-ai.appspot.com",
+  "metageneration": 1,
+  "generation": 1738858707249,
+  "contentType": "application/pdf",
+  "storageClass": "STANDARD",
+  "contentDisposition": "inline",
+  "downloadTokens": [
+    "d9a1316e-dcd6-4642-9929-344281cab2ce"
+  ],
+  "etag": "QtwygcsKx4G44BhpPQvv/6qKYgI",
+  "customMetadata": {},
+  "timeCreated": "2025-02-06T16:18:27.249Z",
+  "updated": "2025-02-06T16:18:27.249Z",
+  "size": 54879820,
+  "md5Hash": "rj9TyaWU1a4XcwCsLvLAsA==",
+  "crc32c": "3182111672"
+}
