@@ -37,5 +37,5 @@ npm install -g firebase-tools
 cd seeds/default
 mkdir database_export
 cd ..
-firebase emulators:start --import ./seeds/default --project demo-manabiya-ai
+firebase emulators:start --import ./seeds/default --project manabiyaai
 ```

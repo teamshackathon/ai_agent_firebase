@@ -166,7 +166,7 @@ def write_to_firestore(id_token, url, data):
             "Content-Type": "application/json",
         }
         response = requests.patch(
-            f"{FIREBASE_EMULATOR_FIRESTORE_URL}/v1/projects/demo-manabiya-ai/databases/(default)/documents/{url}",
+            f"{FIREBASE_EMULATOR_FIRESTORE_URL}/v1/projects/manabiyaai/databases/(default)/documents/{url}",
             json=body,
             headers=headers,
         )
@@ -184,7 +184,7 @@ def get_document_from_firestore(id_token, url):
         }
 
         # Firestore API エンドポイント
-        url = f"{FIREBASE_EMULATOR_FIRESTORE_URL}/v1/projects/demo-manabiya-ai/databases/(default)/documents/{url}"
+        url = f"{FIREBASE_EMULATOR_FIRESTORE_URL}/v1/projects/manabiyaai/databases/(default)/documents/{url}"
 
 
         # リクエスト送信
@@ -209,7 +209,7 @@ def delete_document_from_firestore(id_token, url):
         }
 
         # Firestore API エンドポイント
-        url = f"{FIREBASE_EMULATOR_FIRESTORE_URL}/v1/projects/demo-manabiya-ai/databases/(default)/documents/{url}"
+        url = f"{FIREBASE_EMULATOR_FIRESTORE_URL}/v1/projects/manabiyaai/databases/(default)/documents/{url}"
 
         # リクエスト送信
         response = requests.delete(url, headers=headers)
