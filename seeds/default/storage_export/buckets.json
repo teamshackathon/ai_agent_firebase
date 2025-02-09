@@ -1,13 +1,13 @@
 {
-  "buckets": [
-    {
-      "id": "demo-manabiya-ai.appspot.com"
-    },
-    {
-      "id": "classistant-6f28f.firebasestorage.app"
-    },
-    {
-      "id": "demo-manabiya-ai.firebasestorage.app"
-    }
-  ]
+    "buckets": [
+        {
+            "id": "manabiyaai.firebasestorage.app"
+        },
+        {
+            "id": "classistant-6f28f.firebasestorage.app"
+        },
+        {
+            "id": "manabiyaai.firebasestorage.app"
+        }
+    ]
 }

@@ -19,6 +19,6 @@ set export_dir=./seeds/%timestamp%
 mkdir "%export_dir%"
 
 REM Export Firebase emulator data to the new directory
-firebase emulators:export "%export_dir%" --project demo-manabiya-ai
+firebase emulators:export "%export_dir%" --project manabiyaai
 
 endlocal

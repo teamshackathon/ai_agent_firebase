@@ -40,7 +40,7 @@
         {
             "label": "firebaseのエミュレータの起動",
             "type": "shell",
-            "command": "firebase emulators:start --import ${input:seeds} --project demo-manabiya-ai",
+            "command": "firebase emulators:start --import ${input:seeds} --project manabiyaai",
             "args": [],
             "problemMatcher": [],
         },
