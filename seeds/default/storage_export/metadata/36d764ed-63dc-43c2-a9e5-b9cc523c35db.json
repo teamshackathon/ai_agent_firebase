@@ -1,15 +1,15 @@
 {
-  "name": "text/",
-  "bucket": "demo-manabiya-ai.appspot.com",
-  "metageneration": 1,
-  "generation": 1738859307540,
-  "contentType": "application/octet-stream",
-  "storageClass": "STANDARD",
-  "downloadTokens": [],
-  "etag": "YGdxoWTCJ3/BR/rgLHY0QmUvl44",
-  "timeCreated": "2025-02-06T16:28:27.540Z",
-  "updated": "2025-02-06T16:28:27.540Z",
-  "size": 130,
-  "md5Hash": "iUpceipDkyQhwwUflucD5w==",
-  "crc32c": "3108464614"
+    "name": "text/",
+    "bucket": "manabiyaai.firebasestorage.app",
+    "metageneration": 1,
+    "generation": 1738859307540,
+    "contentType": "application/octet-stream",
+    "storageClass": "STANDARD",
+    "downloadTokens": [],
+    "etag": "YGdxoWTCJ3/BR/rgLHY0QmUvl44",
+    "timeCreated": "2025-02-06T16:28:27.540Z",
+    "updated": "2025-02-06T16:28:27.540Z",
+    "size": 130,
+    "md5Hash": "iUpceipDkyQhwwUflucD5w==",
+    "crc32c": "3108464614"
 }

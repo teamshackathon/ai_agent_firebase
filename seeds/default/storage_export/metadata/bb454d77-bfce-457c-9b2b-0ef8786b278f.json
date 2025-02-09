@@ -1,15 +1,15 @@
 {
-  "name": "chroma/chroma_2024_1-1_english.zip",
-  "bucket": "demo-manabiya-ai.appspot.com",
-  "metageneration": 1,
-  "generation": 1738932522077,
-  "contentType": "application/zip",
-  "storageClass": "STANDARD",
-  "downloadTokens": [],
-  "etag": "j7UeK0h3Kiv7LwrwOIn+DfbBrC8",
-  "timeCreated": "2025-02-07T12:48:42.077Z",
-  "updated": "2025-02-07T12:48:42.077Z",
-  "size": 101895,
-  "md5Hash": "1EUwwNlLXp4KtzlHjf40qA==",
-  "crc32c": "1578476568"
+    "name": "chroma/chroma_2024_1-1_english.zip",
+    "bucket": "manabiyaai.firebasestorage.app",
+    "metageneration": 1,
+    "generation": 1738932522077,
+    "contentType": "application/zip",
+    "storageClass": "STANDARD",
+    "downloadTokens": [],
+    "etag": "j7UeK0h3Kiv7LwrwOIn+DfbBrC8",
+    "timeCreated": "2025-02-07T12:48:42.077Z",
+    "updated": "2025-02-07T12:48:42.077Z",
+    "size": 101895,
+    "md5Hash": "1EUwwNlLXp4KtzlHjf40qA==",
+    "crc32c": "1578476568"
 }

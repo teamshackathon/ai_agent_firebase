@@ -1,19 +1,19 @@
 {
-  "name": "icon/sample.webp",
-  "bucket": "demo-manabiya-ai.appspot.com",
-  "metageneration": 1,
-  "generation": 1738932734878,
-  "contentType": "image/webp",
-  "storageClass": "STANDARD",
-  "contentDisposition": "inline",
-  "downloadTokens": [
-    "efb96fb0-ea71-4f9c-9aac-97748d58c4d9"
-  ],
-  "etag": "TMmuCt1REWORaBetfUfGoyWI4FQ",
-  "customMetadata": {},
-  "timeCreated": "2025-02-07T12:52:14.878Z",
-  "updated": "2025-02-07T12:52:14.878Z",
-  "size": 342774,
-  "md5Hash": "KTDZsynINo+K/gzZeMjCGg==",
-  "crc32c": "3843450540"
+    "name": "icon/sample.webp",
+    "bucket": "manabiyaai.firebasestorage.app",
+    "metageneration": 1,
+    "generation": 1738932734878,
+    "contentType": "image/webp",
+    "storageClass": "STANDARD",
+    "contentDisposition": "inline",
+    "downloadTokens": [
+        "efb96fb0-ea71-4f9c-9aac-97748d58c4d9"
+    ],
+    "etag": "TMmuCt1REWORaBetfUfGoyWI4FQ",
+    "customMetadata": {},
+    "timeCreated": "2025-02-07T12:52:14.878Z",
+    "updated": "2025-02-07T12:52:14.878Z",
+    "size": 342774,
+    "md5Hash": "KTDZsynINo+K/gzZeMjCGg==",
+    "crc32c": "3843450540"
 }
